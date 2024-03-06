@@ -1,13 +1,27 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com-bank-core-payments</groupId>
-  <artifactId>com-bank-core-payments-iso</artifactId>
-  <version>1.0.0</version>
-  
-  
-  <properties>
-	  <maven.compiler.source>17</maven.compiler.source>
-	  <maven.compiler.target>17</maven.compiler.target>
-  </properties>
-  
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com-bank-core-payments</groupId>
+	<artifactId>com-bank-core-payments-iso</artifactId>
+	<version>1.0.0</version>
+
+
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+	<dependencies>
+
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+			<version>3.25.2</version>
+		</dependency>
+
+	</dependencies>
+
+
+	<build>
+	</build>
 </project>
