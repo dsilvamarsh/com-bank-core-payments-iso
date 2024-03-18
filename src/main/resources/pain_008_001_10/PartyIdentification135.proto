@@ -1,9 +1,9 @@
 syntax = "proto3";
 
 package com.bank.core.proto.pain_008_001_10;
-import "proto/PostalAddress24.proto";
-import "proto/Party38Choice.proto";
-import "proto/Contact4.proto";
+import "PostalAddress24.proto";
+import "Party38Choice.proto";
+import "Contact4.proto";
 message PartyIdentification135{
     string Nm = 1;
     optional PostalAddress24 PstlAdr = 2;

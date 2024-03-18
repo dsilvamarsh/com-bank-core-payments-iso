@@ -1,13 +1,13 @@
 syntax = "proto3";
 
 package com.bank.core.proto.pain_008_001_10;
-import "proto/PaymentMethod2Code.proto";
-import "proto/PaymentTypeInformation29.proto";
-import "proto/PartyIdentification135.proto";
-import "proto/CashAccount40.proto";
-import "proto/BranchAndFinancialInstitutionIdentification6.proto";
-import "proto/ChargeBearerType1Code.proto";
-import "proto/DirectDebitTransactionInformation28.proto";
+import "PaymentMethod2Code.proto";
+import "PaymentTypeInformation29.proto";
+import "PartyIdentification135.proto";
+import "CashAccount40.proto";
+import "BranchAndFinancialInstitutionIdentification6.proto";
+import "ChargeBearerType1Code.proto";
+import "DirectDebitTransactionInformation28.proto";
 
 import "google/protobuf/timestamp.proto";
 

@@ -1,9 +1,9 @@
 syntax = "proto3";
 
 package com.bank.core.proto.pain_008_001_10;
-import "proto/NamePrefix2Code.proto";
-import "proto/OtherContact1.proto";
-import "proto/PreferredContactMethod1Code.proto";
+import "NamePrefix2Code.proto";
+import "OtherContact1.proto";
+import "PreferredContactMethod1Code.proto";
 message Contact4{
     NamePrefix2Code NmPrfx=1;
     string Nm=2;
@@ -15,6 +15,6 @@ message Contact4{
     string JobTitl=8;
     string Rspnsblty=9;
     string Dept=10;
-    repeated OtherContact1 Othr=11;;
+    repeated OtherContact1 Othr=11;
     optional PreferredContactMethod1Code PrefrdMtd=12;
 }

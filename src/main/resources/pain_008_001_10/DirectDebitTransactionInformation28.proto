@@ -1,20 +1,20 @@
 syntax = "proto3";
 
 package com.bank.core.proto.pain_008_001_10;
-import "proto/PaymentIdentification6.proto";
-import "proto/PaymentTypeInformation29.proto";
-import "proto/ActiveOrHistoricCurrencyAndAmount.proto";
-import "proto/ChargeBearerType1Code.proto";
-import "proto/DirectDebitTransaction11.proto";
-import "proto/PartyIdentification135.proto";
-import "proto/BranchAndFinancialInstitutionIdentification6.proto";
-import "proto/CashAccount40.proto";
-import "proto/Purpose2Choice.proto";
-import "proto/RegulatoryReporting3.proto";
-import "proto/TaxInformation10.proto";
-import "proto/RemittanceLocation7.proto";
-import "proto/RemittanceInformation21.proto";
-import "proto/SupplementaryData1.proto";
+import "PaymentIdentification6.proto";
+import "PaymentTypeInformation29.proto";
+import "ActiveOrHistoricCurrencyAndAmount.proto";
+import "ChargeBearerType1Code.proto";
+import "DirectDebitTransaction11.proto";
+import "PartyIdentification135.proto";
+import "BranchAndFinancialInstitutionIdentification6.proto";
+import "CashAccount40.proto";
+import "Purpose2Choice.proto";
+import "RegulatoryReporting3.proto";
+import "TaxInformation10.proto";
+import "RemittanceLocation7.proto";
+import "RemittanceInformation21.proto";
+import "SupplementaryData1.proto";
 
 message DirectDebitTransactionInformation28{
 

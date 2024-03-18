@@ -1,8 +1,8 @@
 syntax ="proto3";
 package com.bank.core.proto.pain_008_001_10;
-import "proto/GroupHeader83.proto";
-import "proto/PaymentInstruction39.proto";
-import "proto/SupplementaryData1.proto";
+import "GroupHeader83.proto";
+import "PaymentInstruction39.proto";
+import "SupplementaryData1.proto";
 
 message CustomerDirectDebitInitiationV10{
     GroupHeader83 GrpHdr=1;

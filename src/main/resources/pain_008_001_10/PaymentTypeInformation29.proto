@@ -1,11 +1,11 @@
 syntax = "proto3";
 
 package com.bank.core.proto.pain_008_001_10;
-import "proto/Priority2Code.proto";
-import "proto/LocalInstrument2Choice.proto";
-import "proto/ServiceLevel8Choice.proto";
-import "proto/SequenceType3Code.proto";
-import "proto/CategoryPurpose1Choice.proto";
+import "Priority2Code.proto";
+import "LocalInstrument2Choice.proto";
+import "ServiceLevel8Choice.proto";
+import "SequenceType3Code.proto";
+import "CategoryPurpose1Choice.proto";
 
 message PaymentTypeInformation29{
 

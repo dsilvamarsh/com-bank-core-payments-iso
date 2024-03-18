@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package com.bank.core.proto.pain_008_001_10;
-import "proto/AddressType3Choice.proto";
+import "AddressType3Choice.proto";
 message PostalAddress24{
     AddressType3Choice AdrTp = 1;
     string Dept = 2;

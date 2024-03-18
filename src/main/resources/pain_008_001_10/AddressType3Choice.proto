@@ -1,7 +1,7 @@
 syntax="proto3";
 package com.bank.core.proto.pain_008_001_10;
-import "proto/AddressType2Code.proto";
-import "proto/GenericIdentification30.proto";
+import "AddressType2Code.proto";
+import "GenericIdentification30.proto";
 message AddressType3Choice{
     AddressType2Code Cd=1;
     GenericIdentification30 Prtry=2;
